@@ -32,7 +32,7 @@ LETTERS = string.ascii_uppercase
 PHRASES = []
 
 # Load phrases from file
-with open('./Prob_1/WheelOfSustainability/sustainability_words.txt') as f:
+with open('./WheelOfSustainability/sustainability_words.txt') as f:
     PHRASES = [line.strip() for line in f if line.strip()]
 
 # Define the wheel wedges
